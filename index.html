@@ -3,10 +3,16 @@
 <html land="en">
     <head>
         <meta charset="utf-8"/>
-        <script src="main.js"></script>   
+        <script src="main.js"></script>  
+        <link href="main.css" rel="stylesheet">
     </head>
-    <body>
-        <input id="form" type="text" onchange="submit()">
-        <h1 id="yeah"></h1>
+    <body id="body">
+        <div id="top"><span id="thingy">plagarEZ</span></div>
+        <textarea id="form" onkeyup="submit()" placeholder="Type or copy text to begin!"></textarea>
+        <textarea id="yeah" placeholder="Updated text will display here." readonly></textarea>
+        <div id="background"></div>
+        <div id="bottom">
+            <span>It's 3am help me</span>
+        </div>
     </body>
 </html>
