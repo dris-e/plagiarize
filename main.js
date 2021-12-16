@@ -19,6 +19,13 @@ textarea.oninput = function() {
 textarea.style.height = textarea.scrollHeight + "px"
 };
 
+function copyButton() {
+    var copyText = document.getElementById("yeah");
+    copyText.select(); 
+    copyText.setSelectionRange(0, 99999); 
+    navigator.clipboard.writeText(copyText.value);
+    alert("Text copied to the clipboard!");
+  }
 
 
 

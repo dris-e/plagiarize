@@ -14,7 +14,7 @@
 
 #background {
     position: relative;
-    height: 130vh;
+    height: 120vh;
     background-image: linear-gradient(180deg, #4D6CFA, #2DC7FF);
     width: 100%;
     z-index: -1;
@@ -36,10 +36,10 @@
 #thingy {
     position: absolute;
     transform: translate(-50%, -50%);
-    text-align: left;
+    text-align: center;
     margin-top: 35px;
     font-size: 40px;
-    left: 10%;
+    left: 50%;
     font-family: 'Readex Pro', sans-serif;
     font-weight: 600;
 }
@@ -87,6 +87,24 @@
     resize: none;
     background-color: #FAFAFF;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18), 0 2px 3px rgba(0, 0, 0, 0.26);
+}
+
+#coolbutton {
+    position: absolute;
+    text-align: center;
+    background-color: #343434;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #FAFAFF;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18), 0 2px 3px rgba(0, 0, 0, 0.26);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: 61%;
 }
 
 
